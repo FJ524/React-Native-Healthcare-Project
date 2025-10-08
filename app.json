@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "HealthcareApp",
+    "slug": "HealthcareApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "img/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+        "package": "com.anonymous.HealthcareApp"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "preset": "jest-expo",
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "**/*.{js,jsx}",
+            "!**/coverage/**",
+            "!**/node_modules/**",
+            "!**/babel.config.js",
+            "!**/jest.setup.js"
+        ]
+    }
+  }
+}
